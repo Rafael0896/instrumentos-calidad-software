@@ -482,4 +482,50 @@ section h2 {
     }
 }
 
+/* ============================================
+   CONCLUSIONS.CSS - Conclusiones
+   ============================================ */
 
+.conclusions {
+    background: linear-gradient(135deg, #f0f7ff 0%, #f8f9fa 100%);
+    border-top: 5px solid #0052a3;
+}
+
+.conclusions-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.conclusion-item {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #0052a3;
+    transition: all 0.3s ease;
+}
+
+.conclusion-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 82, 163, 0.15);
+    transform: translateY(-5px);
+}
+
+.conclusion-item h3 {
+    font-size: 1.2rem;
+    color: #0052a3;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.conclusion-item p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .conclusions-content {
+        grid-template-columns: 1fr;
+    }
+}
