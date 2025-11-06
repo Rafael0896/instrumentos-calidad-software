@@ -7,7 +7,7 @@ function ConclusionsComponent() {
                 <h2>Conclusiones</h2>
                 <div className="conclusions-content">
                     <div className="conclusion-item">
-                        <h3>📌 Importancia de Buenas Prácticas</h3>
+                        <h3>Importancia de Buenas Prácticas</h3>
                         <p>
                             La aplicación sistemática de buenas prácticas en el desarrollo de software es
                             fundamental para producir soluciones de calidad. Estas prácticas no solo
@@ -16,7 +16,7 @@ function ConclusionsComponent() {
                         </p>
                     </div>
                     <div className="conclusion-item">
-                        <h3>🛠️ Rol de los Instrumentos</h3>
+                        <h3>Rol de los Instrumentos</h3>
                         <p>
                             Los instrumentos de calidad proporcionan estructura y consistencia a los
                             procesos de desarrollo. Permiten estandarizar procedimientos, documentar
@@ -26,7 +26,7 @@ function ConclusionsComponent() {
                         </p>
                     </div>
                     <div className="conclusion-item">
-                        <h3>✨ Beneficios Cuantitativos</h3>
+                        <h3>Beneficios Cuantitativos</h3>
                         <p>
                             La implementación rigurosa de estos procesos resulta en: reducción de errores
                             en producción (hasta 70%), menor tiempo de resolución de problemas, mejora
@@ -36,7 +36,7 @@ function ConclusionsComponent() {
                         </p>
                     </div>
                     <div className="conclusion-item">
-                        <h3>🚀 Mejora Continua</h3>
+                        <h3>Mejora Continua</h3>
                         <p>
                             La calidad de software no es un destino, sino un viaje continuo. Los
                             instrumentos deben revisarse periódicamente, adaptarse a nuevas tecnologías y
