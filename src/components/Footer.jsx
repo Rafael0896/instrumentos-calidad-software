@@ -10,13 +10,13 @@ function FooterComponent() {
                     <div className="footer-info">
                         <h4>Información del Proyecto</h4>
                         <p>
-                            <strong>Estudiante:</strong> [Tu Nombre Aquí]
+                            <strong>Estudiante:</strong> Rafael Álvarez
                         </p>
                         <p>
-                            <strong>Programa:</strong> [Tu Programa de Formación]
+                            <strong>Programa:</strong> Analisis y Desarrollo de Software ADSO
                         </p>
                         <p>
-                            <strong>Institución:</strong> [Tu Institución]
+                            <strong>Institución:</strong> Servicio Nacional de Aprendizaje (SENA)
                         </p>
                     </div>
                     <div className="footer-meta">
