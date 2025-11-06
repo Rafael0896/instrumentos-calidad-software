@@ -175,3 +175,70 @@ section h2 {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 }
+
+/* ============================================
+   PRACTICES.CSS - Buenas Prácticas
+   ============================================ */
+
+.practices {
+    background-color: white;
+    border-top: 5px solid #0052a3;
+}
+
+.practices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.practice-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.practice-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 82, 163, 0.15);
+    border-color: #0052a3;
+}
+
+.practice-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    display: inline-block;
+    background: #f0f7ff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.practice-card h3 {
+    font-size: 1.3rem;
+    color: #0052a3;
+    margin-bottom: 12px;
+}
+
+.practice-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .practices-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+}
