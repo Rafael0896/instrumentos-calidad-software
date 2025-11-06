@@ -529,3 +529,63 @@ section h2 {
         grid-template-columns: 1fr;
     }
 }
+/* ============================================
+   FOOTER.CSS - Pie de Página
+   ============================================ */
+
+.footer {
+    background: linear-gradient(135deg, #0052a3 0%, #003d80 100%);
+    color: white;
+    padding: 40px 0 20px;
+    border-top: 5px solid #ffeb3b;
+    margin-top: 60px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-info,
+.footer-meta,
+.footer-tech {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.footer-info h4,
+.footer-meta h4,
+.footer-tech h4 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #ffeb3b;
+    font-weight: 600;
+}
+
+.footer-info p,
+.footer-meta p,
+.footer-tech p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

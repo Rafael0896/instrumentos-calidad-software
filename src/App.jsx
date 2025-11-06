@@ -4,6 +4,7 @@ import Practices from './components/Practices';
 import Instruments from './components/Instruments';
 import Process from './components/Process';
 import Conclusions from './components/Conclusions';
+import Footer from './components/Footer';
 
 // Componente principal de la aplicación
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
                     <Conclusions/>
                 </section>
             </main>
+            <Footer />
         </div>
     );
 }
