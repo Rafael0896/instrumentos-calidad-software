@@ -242,3 +242,122 @@ section h2 {
         font-size: 1.8rem;
     }
 }
+
+/* ============================================
+   INSTRUMENTS.CSS - Instrumentos
+   ============================================ */
+
+.instruments {
+    background-color: #f8f9fa;
+    border-top: 5px solid #0052a3;
+}
+
+.instruments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.instrument-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border-left: 5px solid #0052a3;
+}
+
+.instrument-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 82, 163, 0.15);
+    transform: translateX(5px);
+}
+
+.instrument-card h3 {
+    font-size: 1.2rem;
+    color: #0052a3;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.instrument-card p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-example {
+    background: linear-gradient(135deg, #0052a3 0%, #0066cc 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn-example:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 82, 163, 0.3);
+}
+
+.btn-example:active {
+    transform: scale(0.98);
+}
+
+.instrument-example {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f7ff;
+    background: #f0f7ff;
+    padding: 15px;
+    border-radius: 8px;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+.instrument-example h4 {
+    color: #0052a3;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.instrument-example ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.instrument-example li {
+    color: #555;
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.instrument-example li:before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #0052a3;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .instruments-grid {
+        grid-template-columns: 1fr;
+    }
+}

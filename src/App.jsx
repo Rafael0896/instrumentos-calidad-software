@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Practices from './components/Practices';
+import Instruments from './components/Instruments';
 
 // Componente principal de la aplicación
 export default function App() {
@@ -11,7 +12,10 @@ export default function App() {
                 <section id="practices">
                     <Practices/>
                 </section>
+                <section id="instruments">
+                    <Instruments/>
+                </section>
             </main>
         </div>
-);
+    );
 }
