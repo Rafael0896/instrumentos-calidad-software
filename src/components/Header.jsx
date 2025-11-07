@@ -29,9 +29,6 @@ function HeaderComponent() {
                     </button>
                     <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
                         <li>
-                            <button onClick={() => scrollToSection('header')}>Inicio</button>
-                        </li>
-                        <li>
                             <button onClick={() => scrollToSection('practices')}>
                                 Buenas Prácticas
                             </button>
